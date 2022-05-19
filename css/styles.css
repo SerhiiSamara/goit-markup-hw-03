@@ -1,0 +1,242 @@
+:root {
+  --primary-background-color: #fff;
+  --dark-background-color: #2f303a;
+  --secodary-background-color: #f5f4fa;
+  --accent-color: #2196f3;
+  --accent-hover-color: #188ce8;
+  --light-text-color: #fff;
+  --light-link-color: rgba(255, 255, 255, 0.6);
+  --primary-text-color: #757575;
+  --black-text-color: #000;
+  --title-text-color: #212121;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--primary-text-color);
+
+  background-color: var(--primary-background-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Сторінка студія */
+
+/* header */
+
+/* logo */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  color: var(--black-text-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.logo:focus {
+  outline: none;
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+
+/* nav */
+.nav-link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.nav-link.current {
+  color: var(--accent-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+
+  outline: 0;
+}
+
+/* contact */
+
+.contacts-link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
+
+  outline: 0;
+}
+
+/* hero */
+
+.hero {
+  background-color: var(--dark-background-color);
+}
+
+.hero-title {
+  color: var(--light-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.button {
+  border-color: transparent;
+}
+
+.button.primary {
+  color: var(--light-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  background-color: var(--accent-color);
+
+  cursor: pointer;
+}
+
+.button.primary:hover,
+.button.primary:focus {
+  background-color: var(--accent-hover-color);
+}
+
+/* section */
+
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+/* section features */
+
+.features-list .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features-list .text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+/* section team */
+
+.team {
+  background: var(--secodary-background-color);
+}
+
+.team-list .title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.team-list .text {
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+/* footer */
+.footer {
+  background-color: var(--dark-background-color);
+}
+
+.footer > .logo {
+  color: var(--light-text-color);
+}
+
+.footer-address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.footer-list > .text {
+  color: var(--light-text-color);
+}
+
+.footer-list .link {
+  color: var(--light-link-color);
+  text-decoration: none;
+}
+
+.footer-list .link:hover,
+.footer-list .link:focus {
+  color: var(--accent-color);
+
+  outline: 0;
+}
+
+/* Страница Портфолио */
+
+/* section example */
+
+.button.secondary {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1/6;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  background: var(--secodary-background-color);
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+  color: var(--light-text-color);
+
+  background-color: var(--accent-color);
+
+  cursor: pointer;
+}
+
+.example-list .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.example-list .text {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
