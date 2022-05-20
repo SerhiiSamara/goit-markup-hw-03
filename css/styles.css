@@ -266,10 +266,6 @@ h3 {
   background: var(--secodary-background-color);
 }
 
-.section.team {
-  border: 5px solid teal;
-}
-
 .team-list {
   display: flex;
 }
