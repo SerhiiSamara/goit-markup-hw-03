@@ -280,8 +280,12 @@ h3 {
   display: flex;
 }
 
-.team-list > .item {
+.team-list .text-box {
+  padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.team-list > .item {
   background-color: var(--primary-background-color);
 }
 
@@ -296,11 +300,9 @@ h3 {
 
 .team-list .img {
   display: block;
-  margin-bottom: 30px;
 }
 
 .team-list .title {
-  margin-bottom: 10px;
   margin-bottom: 10px;
 
   color: var(--title-text-color);
@@ -403,6 +405,10 @@ h3 {
   flex-wrap: wrap;
 }
 
+.example > .cell {
+  width: calc((100%-60px) / 3);
+}
+
 .example-list > .cell:not(:nth-child(3n)) {
   margin-right: 30px;
 }
@@ -419,8 +425,11 @@ h3 {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
+  padding-right: 24px;
 
-  border: 1px solid var(--example-card-border);
+  border-right: 1px solid var(--example-card-border);
+  border-bottom: 1px solid var(--example-card-border);
+  border-left: 1px solid var(--example-card-border);
 }
 
 .example-list .title {
