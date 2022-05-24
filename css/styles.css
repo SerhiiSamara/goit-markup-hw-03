@@ -405,7 +405,7 @@ h3 {
   flex-wrap: wrap;
 }
 
-.example > .cell {
+.example-list > .cell {
   width: calc((100%-60px) / 3);
 }
 
@@ -419,6 +419,7 @@ h3 {
 
 .example-list .img {
   display: block;
+  width: 370px;
 }
 
 .example-list .text-box {
