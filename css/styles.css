@@ -233,7 +233,7 @@ h3 {
 }
 
 .features-list > .item {
-  width: calc((100%-90px) / 4);
+  width: calc((100% - 90px) / 4);
 }
 
 .features-list > .item:not(:last-child) {
@@ -263,7 +263,7 @@ h3 {
 }
 
 .activities-list > .item {
-  width: calc((100%-60px) / 3);
+  width: calc((100% - 60px) / 3);
 }
 
 .activities-list > .item:not(:last-child) {
@@ -290,7 +290,7 @@ h3 {
 }
 
 .team-list > .item {
-  width: calc((100%-90px) / 4);
+  width: calc((100% - 90px) / 4);
   text-align: center;
 }
 
@@ -406,7 +406,7 @@ h3 {
 }
 
 .example-list > .cell {
-  width: calc((100%-60px) / 3);
+  width: calc((100% - 60px) / 3);
 }
 
 .example-list > .cell:not(:nth-child(3n)) {
